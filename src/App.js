@@ -60,6 +60,8 @@ const App = () => {
               </g>{" "}
             </svg>
           </div>
+          {recording &&<div class="pulsating-circle" onClick = {handleClick}></div>}
+
         </div>
 
         <p> {vad.loading && "Loading"}</p>
